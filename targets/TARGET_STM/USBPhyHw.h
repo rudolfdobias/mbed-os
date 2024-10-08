@@ -47,7 +47,7 @@
 #define USBHAL_IRQn  USB_LP_IRQn
 #elif defined(TARGET_STM32F3)
 #define USBHAL_IRQn  USB_LP_CAN_RX0_IRQn
-#elif defined(TARGET_STM32L5)
+#elif defined(TARGET_STM32L5) || defined(TARGET_STM32L4)
 #define USBHAL_IRQn  USB_FS_IRQn
 #else
 #define USBHAL_IRQn  USB_IRQn

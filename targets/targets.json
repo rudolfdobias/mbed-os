@@ -4084,7 +4084,8 @@
         "detect_code": [
             "0710"
         ],
-        "device_name": "STM32L152RETx"
+        "device_name": "STM32L152RETx",
+        "device_has_add": ["USBDEVICE"]
     },
     "MCU_STM32L4": {
         "inherits": [
@@ -4235,6 +4236,9 @@
         "macros_add": [
             "STM32L452xx",
             "MBED_SPLIT_HEAP"
+        ],
+        "device_has_add": [
+            "USBDEVICE"
         ]
     },
     "NUCLEO_L452RE_P": {
